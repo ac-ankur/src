@@ -1,0 +1,181 @@
+body {
+    background-color: #d3d3d366;
+    overflow-x: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.receiver_info {
+    background: white;
+    width: 50%;
+    MARGIN-BOTTOM: 20PX;
+    PADDING-BOTTOM: 20PX;
+    margin-top: 26px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 100px;
+}
+
+.boxhead {
+    padding-top: 14px;
+}
+
+.receiver_info p {
+    color: #17094a;
+    text-align: center;
+}
+
+h2.bank_info {
+    font-weight: 500;
+    color: #1d1249;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h2.bank_info1 {
+    font-weight: 500;
+    color: #1d1249;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+h3.boxhead {
+    color: #c5aa69;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.right {
+    float: right;
+}
+
+h2.bank_info {
+    font-weight: 500;
+    color: #1d1249;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+h2.bank_info1 {
+    font-size: 22px;
+}
+
+input.receiveinput,
+input.receiveinput.right,
+select.receiveinput.right,
+select.receiveinput {
+    width: 48%;
+    height: 48px;
+    border-radius: 0.25rem;
+    border: 2px solid grey;
+    margin-top: 18px;
+    padding: 10px;
+}
+
+.receivebtn {
+    color: white;
+    width: 100%;
+    margin-top: 26px;
+    height: 48px;
+    background: #17094c;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    border: 1px solid #23165f;
+}
+
+input.receiveinput:focus {
+    border: 2px solid #3F51B5;
+    background: #f1efda;
+}
+
+.summary {
+    background: #d0e2eb;
+    height: max-content;
+    width: 26%;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+
+/* .transaction_box {
+    display: flex;
+} */
+.receiver_information {
+    DISPLAY: flex;
+    justify-content: space-evenly;
+    margin-top: 26px;
+    margin-bottom: 60px;
+}
+
+.summary ul li span {
+    font-size: 18px;
+    font-weight: 600;
+    color: #140b48;
+}
+
+.summary ul li {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+td.summaryh {
+    width: 100px;
+    text-align: end;
+    margin-right: 50px;
+    display: block;
+}
+
+td.summaryh {
+    font-size: 18px;
+    width: 200px;
+    text-align: end;
+    margin-right: 50px;
+    display: block;
+}
+
+td.sum {
+    color: #130b45;
+    font-weight: 600;
+}
+
+.servicetime {
+    font-weight: 400;
+    color: #130b45;
+    font-size: 17px;
+    padding-top: 8px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time p {
+    font-size: 22px;
+}
+
+button.continue {
+    font-weight: 700;
+    width: 20%;
+    height: 40px;
+    background: #baad7e;
+    color: #130b45;
+    /* margin: 0 auto; */
+    /* display: block; */
+    float: right;
+    margin-right: 0px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+p#output-text {
+    text-align: end;
+}

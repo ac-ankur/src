@@ -1,0 +1,224 @@
+/* 
+** The Header Media Queries **
+** Tweak as per your needs **
+*/
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
+.site-header {
+  position: relative;
+  background-color: #160b4b;
+  height: 82px;
+}
+.navbarah{
+border-left: 1px solid white;
+border-right: 1px solid white;
+margin-top: -34px;
+}
+a.brand {
+  padding-left: 44px;
+  color: #ddb95d;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 22px;
+  padding-top: 13px;
+}
+a.hover-underline-animation.login{    width: 40px;
+border: 1px solid white;
+margin-left: 10px;
+padding: 0px;
+margin-top: 0px;
+padding: 6px;}
+ul.nav__wrapper {
+  list-style: none;
+  font-family: sans-serif;
+}
+.nav__item1 a {
+  font-size: 16px;
+  display: block;
+  padding: 1.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: -17px;
+}
+/* .navbar {
+overflow: hidden;
+background-color: #333;
+font-family: Arial, Helvetica, sans-serif;
+} */
+
+.navbar a {
+float: left;
+font-size: 17px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+.logout{    position: absolute;
+bottom: 19px;}
+body{margin: 0px;}
+i.fa.fa-bars {
+font-size: 27px;
+}
+ul.nav__wrapper {
+padding-top: 39px;
+}
+
+ul.nav__wrapper.menus {
+margin-right: 50px;
+}
+.name{    position: absolute;
+top: 21px;    font-size: 18px;color: #c1ab71;
+/* left: inherit; */
+margin-left: 30px;}
+.logout{display: block;}
+.nav__item a {
+display: block;
+padding: 1.5rem 1rem;
+margin-top: -17px;
+}
+.headerUserCircle{
+position: absolute;
+top: 18px;color: #c1ab71;
+font-size: 24px;
+display: inline-block;
+font: normal normal normal 14px/1 FontAwesome;
+font-size: inherit;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+}
+
+a.register {
+color:white;
+}
+.dropdown .dropbtn {
+cursor: pointer;
+font-size: 16px;  
+border: none;
+outline: none;
+color: #c1ab71;
+/* background-color: inherit; */
+/* font-family: inherit; */
+margin: 0;
+width: 46px;
+}
+button.btn_header {
+padding: 0px;
+border: none;
+background: #140b48;
+padding-top: 35px;
+}
+/* .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+background-color: red;
+} */
+
+.dropdown-content {
+display: block;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+color:black;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.show1 {
+display: block;
+}
+.wrapper.site-header__wrapper {
+height: 72px;
+width: 88%;
+margin: 0 auto;
+}
+img.logo_pic {
+width: 226px;
+}
+i.fa.fa-user,i.fa.fa-search {
+  color: #fbca47;
+}
+ul.nav__wrapper {
+  padding-right: 44px;
+}
+i.fa.fa-user {
+  margin-right: 6px;
+}
+.site-header__wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  a.hover-underline-animation:hover {
+      font-weight: 500;
+      color: #ddb95d;
+      font-size: 17px;
+      /* text-decoration-color: #140b48; */
+  }
+  i.fa.fa-bars:hover{ color: #ddb95d;}
+  @media (min-width: 600px) {
+    .site-header__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 0; }
+   }
+@media (min-width: 600px) {
+  .nav__wrapper {
+    display: flex; } }
+
+@media (max-width: 599px) {
+  .wrapper.site-header__wrapper {
+      background: white;
+      width: 84%;
+      height: 26px !important;
+      margin: 0 auto;
+      padding-top: 6px;
+      border-radius: 50px;
+      opacity: 0.9;
+  }
+  .nav__wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #d9f0f7;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+    .nav__wrapper.active {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0); } }
+
+.nav__item a {
+  display: block;
+  padding: 1.5rem 1rem; }
+
+.nav__toggle {
+  display: none; }
+  @media (max-width: 599px) {
+    .nav__toggle {
+      display: block;
+      position: absolute;
+      right: 1rem;
+      top: 1rem; } }

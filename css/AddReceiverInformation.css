@@ -1,0 +1,87 @@
+body {
+    background-color: #d3d3d366
+}
+
+.receiver_info {
+    background: white;
+    width: 74%;
+    margin: 0 auto;
+    MARGIN-BOTTOM: 20PX;
+    PADDING-BOTTOM: 20PX;
+    margin-top: 26px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxhead {
+    padding-top: 14px;
+}
+
+.receiver_info p {
+    color: #17094a;
+    text-align: center;
+}
+
+h2.bank_info {
+    font-weight: 500;
+    color: #1d1249;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h2.bank_info1 {
+    font-weight: 500;
+    color: #1d1249;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* input#name{width: 48%;
+    height: 42px;
+    border-radius: 0.25rem;
+    border: 2px solid #c1ab71;
+    margin-top: 18px;} */
+.receive1 {
+    width: 86%;
+    margin: 0 auto;
+}
+
+input.receiveinput1,
+input.receiveinput1.right,
+select.receiveinput1.right {
+    width: 48%;
+    height: 48px;
+    border-radius: 0.25rem;
+    border: 2px solid grey;
+    margin-top: 18px;
+    padding: 10px;
+}
+
+input.receiveinput1:focus {
+    /* border-top: 2px solid #17094a;
+        border-left: 2px solid #bdac78;
+        border-right: 2px solid #bdac78;
+        border-bottom: 2px solid #17094a; */
+    border: 2px solid #3F51B5;
+    background: #f1efda;
+}
+
+select.receiveinput1.right,
+select.receiveinput1 {
+    width: 48%;
+    height: 48px;
+    border-radius: 0.25rem;
+    margin-top: 18px;
+    border: 2px solid grey;
+}
+.receive_right{
+    width: 48%;
+    height: 48px;
+    border-radius: 0.25rem;
+    margin-top: 18px;
+    border: 2px solid grey;
+    padding-top:3px;
+    float:right;
+    display: block;
+
+}

@@ -1,0 +1,139 @@
+div.coreceiveinput.right {
+    height: 48px;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    float: right ;
+}
+input[type="file"] {
+    background: #e7dcc1;
+    color: #17094a;
+    font-weight: 500;
+    width: 185px;
+    float: right;
+}
+input[type="file"]::-webkit-file-upload-button{
+    height:55px;
+    margin-top: -10px;
+    background: #1d134b;
+    color: white;
+    padding-top: 10px;
+    cursor: pointer;
+}
+input.coreceiveinput.right {
+    float: right;
+}
+label#fileLabel {
+    color: #17094a;
+    font-weight: 400 !important;
+    padding-left: 14px;
+    margin-top: 9px;
+    color: black;
+}
+body.main-layout {
+    background-color: #d3d3d366;
+}
+
+
+select.coreceiveinput.payment {
+    width: 100%;
+}
+textarea {
+    resize: none;
+    width: 100%;
+  }
+  input[type="checkbox"] {
+    height: 1em;
+    margin-top: 32px;
+}
+.inspan {
+    font-size: 16px;
+    color: #150a49;
+}
+.inspana {
+    color: #130a46;
+    font-weight: 600;
+}
+.receivebtn {
+    color: white;
+    width: 100%;
+    margin-top: 26px;
+    height: 48px;
+    background: #17094c;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    border: 1px solid #23165f;
+}
+select.coreceiveinput {
+    width: 48%;
+    height: 48px;
+    border-radius: 0.25rem;
+    margin-top: 18px;
+    border: 2px solid grey;
+}
+textarea{border: 2px solid grey;margin-top: 18px !important;display: block;}
+select.coreceiveinput.right ,div.coreceiveinput.right{
+    width: 48%;
+    height: 48px;float: right;
+    border-radius: 0.25rem;
+    border: 2px solid grey;
+    margin-top: 18px;
+    padding: 10px;
+}body{background-color: #d3d3d366}
+
+.coreceiver_info{background: white;
+    width: 74%;
+    margin: 0 auto;MARGIN-BOTTOM: 20PX;
+    PADDING-BOTTOM: 20PX;margin-bottom: 50px;
+    margin-top: 26px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);}
+.coboxhead{padding-top: 14px;}
+.coreceiver_info p{    color: #17094a;
+    text-align: center;}
+h2.bank_info{font-weight: 500;
+    color: #1d1249;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 30px;}
+    h2.bank_info1{font-weight: 500;
+        color: #1d1249;
+        margin: 0 auto;
+        margin-top: 30px;}
+    .coreceive {
+        width: 86%;
+        margin: 0 auto;
+    }
+    
+    input.coreceiveinput ,input.coreceiveinput.right,select.coreceiveinput.right,select.coreceiveinput.right,select.coreceiveinput{
+        width: 48%;
+        height: 48px;
+        border-radius: 0.25rem;
+        border: 2px solid grey;
+        margin-top: 18px;
+        padding: 10px;
+
+    }    
+    input.coreceiveinput:focus,input.coreceiveinput.right:focus {
+        border: 2px solid #3F51B5;
+        background: #f1efda;
+    }
+    h3.coboxhead {
+        color: #c5aa69;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    button.receivebtn:hover {
+        background: #c1ab71;
+        color: #140b48;
+        cursor: pointer;
+    }
+    input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+select.coreceiveinput:focus ,textarea:focus{
+    border: 2px solid #3F51B5;
+    background: #f1efda;
+}

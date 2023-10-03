@@ -1,0 +1,85 @@
+.otpcard {
+  width: 350px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  height: 350px;
+  position: relative;
+}
+
+.container {
+  height: 100vh;
+}
+
+.mobile-text {
+  color: #989696b8;
+  font-size: 15px;
+}
+
+.form-control {
+  margin-right: 12px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ff8880;
+  outline: 0;
+  box-shadow: none;
+}
+
+.mobile-text {
+  color: #17094c;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.white_bg {
+  background: #fff;
+  border-radius: 50px;
+  opacity: 0.9;
+  padding: 0px 35px;
+}
+
+.logo {
+  padding-top: 24px;
+}
+
+.box {
+  background: url(../images/abo_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 40px;
+}
+
+h3.boxhead {
+  color: #c5aa69;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+p.boxparaotp{
+  color: #b6a674;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.social:hover {
+  background: #bdac78 !important;
+  cursor: pointer;
+}
+
+.form-control {
+  border: 2px solid #22154e;
+  transition: none;
+}
+
+.form-control:focus {
+  color: #c5aa69 !important;
+  border: 2px solid #c5aa69 !important;
+}

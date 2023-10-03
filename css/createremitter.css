@@ -1,0 +1,60 @@
+.crboxlogin1{
+   
+       
+        
+        width: 74%;
+        margin: 0 auto;
+        MARGIN-BOTTOM: 20PX;
+        PADDING-BOTTOM: 20PX;
+        margin-top: 26px;
+        box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+    }
+    /* .boxlogin {
+        background: url(../images/abo_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 40px;
+   } */
+   
+
+.hr{
+    
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0,0,0,.1);
+}
+.sendersbankinfo{
+  
+        font-weight: 500;
+        color: #1d1249;
+        width: 86%;
+        margin: 0 auto;
+   
+        margin-top: 30px;
+}
+.sendersbankinfo1{
+  
+    font-weight: 500;
+    color: #1d1249;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.boxhead {
+    padding-top: 14px;
+}
+
+.receiver_info p {
+    color: #17094a;
+    text-align: center;
+}
+.receiveinput{
+    width: 48%;
+    height: 42px;
+    border-radius: 0.25rem;
+    border: 2px solid #c1ab71;
+    margin-top: 18px;
+
+}
